@@ -136,6 +136,14 @@ table {
     font-family: bebasneue;
     src: url(fonts/BebasNeue-Regular.ttf);
   }
+@font-face {
+    font-family: dexMedium;
+    src: url(fonts/Dax\ Medium.ttf);
+  }
+@font-face {
+    font-family: dexRegular;
+    src: url(fonts/Dax\ Regular.ttf);
+  }
 /* End of Font Family */
 
 .container {
@@ -208,3 +216,12 @@ a:hover{
     background-color: #7bcadb;
      
 }
+
+/* Middle Part CSS  */
+.containerMiddle{
+    background-color: #00303a;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+/* Middle Part CSS FInish */
