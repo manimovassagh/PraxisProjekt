@@ -133,17 +133,17 @@ table {
 /* Font Family */
 
 @font-face {
-    font-family: bebasneue;
-    src: url(fonts/BebasNeue-Regular.ttf);
-  }
+  font-family: bebasneue;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
 @font-face {
-    font-family: dexMedium;
-    src: url(fonts/Dax\ Medium.ttf);
-  }
+  font-family: dexMedium;
+  src: url(fonts/Dax\ Medium.ttf);
+}
 @font-face {
-    font-family: dexRegular;
-    src: url(fonts/Dax\ Regular.ttf);
-  }
+  font-family: dexRegular;
+  src: url(fonts/Dax\ Regular.ttf);
+}
 /* End of Font Family */
 
 .container {
@@ -154,7 +154,6 @@ table {
   justify-content: start;
   margin-right: 0px;
   width: 1920px;
-  
 }
 .logo {
   width: 207px;
@@ -195,7 +194,6 @@ table {
   display: flex;
   align-items: center;
   justify-content: end;
-  
 }
 .menuBluePart {
   min-width: 140px;
@@ -210,67 +208,74 @@ a {
   font-family: bebasneue;
   font-size: 27px;
   letter-spacing: 2px;
-  
 }
 .impressum {
   margin-right: 330px;
 }
-a:hover{
-    background-color: #7bcadb;
-     
+a:hover {
+  background-color: #7bcadb;
 }
 
 /* Middle Part CSS  */
-.firstHeaderText{
-    font-family: bebasneue;
-    color: #7bcadb;
-    font-size: 127px;
-   
+.firstHeaderText {
+  font-family: bebasneue;
+  color: #7bcadb;
+  font-size: 127px;
 }
-.secondHeaderText{
-    font-family: bebasneue;
-    color: #7bcadb;
-    font-size: 67px;
-    margin-top: 20px;
-    
+.secondHeaderText {
+  font-family: bebasneue;
+  color: #7bcadb;
+  font-size: 67px;
+  margin-top: 20px;
 }
 
-.firstmainText{
-font-family: dexRegular;
-font-size: 40px;
-color: #7c6e66;
-line-height: 1.1;
+.firstmainText {
+  font-family: dexRegular;
+  font-size: 40px;
+  color: #7c6e66;
+  line-height: 1.1;
 }
-.secondmainText{
-    font-family: dexRegular;
-    font-size: 40px;
-    color: #7c6e66;
-    margin-top: 20px;
-    line-height: 1.1;
-}
-    
-.textMiddle{
-    position: absolute;
-    top: 410px;
-    left: 130px;
-   
-    
-  
+.secondmainText {
+  font-family: dexRegular;
+  font-size: 40px;
+  color: #7c6e66;
+  margin-top: 20px;
+  line-height: 1.1;
 }
 
-.imageMiddle{
-    padding-top: 30px;
+.textMiddle {
+  position: absolute;
+  top: 410px;
+  left: 130px;
 }
-.thirdPart{
-    margin-top: 140px;
-    display: flex;
-    align-items: center;
-   font-family: bebasneue;
-   font-size: 62px;
-   color: #7c6e66;
-   letter-spacing: 2px;
+
+.imageMiddle {
+  padding-top: 30px;
 }
-.fachrichtung{
-    margin-left: 22px;
-   
+.thirdPart {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  font-family: bebasneue;
+  font-size: 62px;
+  color: #7c6e66;
+  letter-spacing: 2px;
+}
+.fachrichtung {
+  margin-left: 22px;
+}
+
+.imgFlex {
+  display: flex;
+}
+
+.firstLineImageGroup{
+    size:30px ;
+    justify-content: center;
+}
+.img{
+    height: 30%;
+    width: 30%;
+    object-fit: contain;
+    min-height: 626px;
 }
