@@ -148,19 +148,22 @@ table {
 
 .container {
   display: flex;
- 
+  position: relative;
   min-height: 162.5px;
   align-items: center;
   justify-content: start;
   margin-right: 0px;
+  width: 1920px;
+  
 }
 .logo {
   width: 207px;
   height: 278px;
   margin-top: 55px;
   margin-left: 36px;
-  margin-right: 110px;
+  margin-right: 36px;
 }
+
 .menuPart {
   justify-content: end;
   margin-bottom: 3px;
@@ -198,7 +201,7 @@ table {
   min-width: 140px;
   min-height: 48px;
   background-color: #7bcadb;
-  min-width: 200px;
+  min-width: 140px;
 }
 a {
   margin-left: 30px;
@@ -218,10 +221,29 @@ a:hover{
 }
 
 /* Middle Part CSS  */
-.containerMiddle{
-    background-color: #00303a;
-    min-width: 200px;
-    min-height: 200px;
+.firstHeaderText{
+    font-family: bebasneue;
+    color: #7bcadb;
+    font-size: 127px;
 }
-
+.firstmainText{
+font-family: dexRegular;
+font-size: 40px;
+color: #7c6e66;
+}
+.secondHeaderText{
+    font-family: bebasneue;
+    color: #7bcadb;
+    font-size: 67px;
+}
+.secondmainText{
+    font-family: dexMedium;
+    font-size: 40px;
+    color: #7c6e66;
+}
+.textMiddle{
+    position: absolute;
+    top: 410px;
+    left: 130px;
+}
 /* Middle Part CSS FInish */
