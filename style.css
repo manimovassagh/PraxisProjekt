@@ -271,11 +271,17 @@ a:hover {
 
 .firstLineImageGroup{
     size:30px ;
-    justify-content: center;
+    justify-content: space-between;
+    margin-right: 110px;
+    margin-left: 117px;
+padding-top: 100px;
 }
+
 .img{
-    height: 30%;
-    width: 30%;
+  
     object-fit: contain;
-    min-height: 626px;
+    height: 626px;
+}
+.img2{
+    padding-top: 130px;
 }
