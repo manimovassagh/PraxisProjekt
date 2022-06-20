@@ -225,25 +225,52 @@ a:hover{
     font-family: bebasneue;
     color: #7bcadb;
     font-size: 127px;
-}
-.firstmainText{
-font-family: dexRegular;
-font-size: 40px;
-color: #7c6e66;
+   
 }
 .secondHeaderText{
     font-family: bebasneue;
     color: #7bcadb;
     font-size: 67px;
+    margin-top: 20px;
+    
+}
+
+.firstmainText{
+font-family: dexRegular;
+font-size: 40px;
+color: #7c6e66;
+line-height: 1.1;
 }
 .secondmainText{
-    font-family: dexMedium;
+    font-family: dexRegular;
     font-size: 40px;
     color: #7c6e66;
+    margin-top: 20px;
+    line-height: 1.1;
 }
+    
 .textMiddle{
     position: absolute;
     top: 410px;
     left: 130px;
+   
+    
+  
 }
-/* Middle Part CSS FInish */
+
+.imageMiddle{
+    padding-top: 30px;
+}
+.thirdPart{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+   font-family: bebasneue;
+   font-size: 62px;
+   color: #7c6e66;
+   letter-spacing: 2px;
+}
+.fachrichtung{
+    margin-left: 22px;
+   
+}
