@@ -49,32 +49,12 @@ table {
 
 /* End Of Reset */
 
-
-.headerContainer{
+.container{
     display: flex;
-}
-.mainMenu{
-    display: flex;
-}
-.blueColor{
-background-color: blueviolet;
-min-width: 20px;
-
-}
-.brownColor{
-    background-color: blue;
+    background-color: rgb(118, 118, 141);
+    min-height: 162.5px;
+    align-items: center;
 }
 .logo{
-    height: 200%;
-}
-.mainMenu{
-    background-color: rgb(188, 141, 188);
- 
-}
-div.headerContainer{
-    max-height: 30px;
-    background-color: blueviolet;
-}
-.href{
-    padding-left: 20px;
+    width: 20%;
 }
