@@ -271,7 +271,7 @@ a:hover {
 
 .firstLineImageGroup {
   size: 30px;
-  justify-content: space-between;
+  justify-content: start;
   margin-right: 110px;
   margin-left: 117px;
   padding-top: 100px;
@@ -302,3 +302,20 @@ font-size: 67px;
   font-size: 40px;
     color: rgb(255, 255, 255);
 }
+.imageContainer2{
+  margin-left: 110px;
+}
+.secondLineImage{
+  padding-top: 0px;
+}
+.img2 {
+  padding-top: -26px;
+}
+.secondLineImages{
+  margin-left: 0px;
+}
+.img3{
+  margin-right: 119px;
+}
+
+
