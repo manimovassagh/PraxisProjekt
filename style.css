@@ -284,11 +284,21 @@ a:hover {
 .img2 {
   padding-top: 130px;
 }
-.image1Text {
+.imageText {
   position: relative;
-  top: -120px;
-  left: 99px;
+  top: -133px;
+  left: 80px;
   font-family: bebasneue;
   font-size: 67px;
-  color: azure;
+  color: rgb(255, 255, 255);
+}
+.imageTextTitle{
+font-family: bebasneue;
+font-size: 67px;
+  color: rgb(255, 255, 255);
+}
+.imageTextDescription{
+  font-family: dexMedium;
+  font-size: 40px;
+    color: rgb(255, 255, 255);
 }
