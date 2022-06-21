@@ -329,8 +329,43 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   z-index: 2;
 }
 .contactFoto {
- max-width: 1790px;
+ max-width: 1920px;
  position: absolute;
  top: -300px;
  z-index:-1;
+}
+/* must be edited */
+.contactFotoTextsContainer{
+  position: absolute;
+  top: 550px;
+  margin-left: 119px;
+}
+/* must be edited */
+
+.contactFotoTitle{
+  font-family: bebasneue;
+  font-size: 67px;
+  color: #7c6e66;
+  letter-spacing: 5px;
+}
+.contactFotoTextWhite{
+  font-family: dexRegular;
+  font-size: 43px;
+  color:white;
+  line-height: 1.2;
+}
+.contactFotoTextBrown{
+  font-family: dexMedium;
+  font-size: 40px;
+  color: #7c6e66;
+  line-height: 1.2;
+}
+.text2Contact{
+  margin-top: 2rem;
+}
+.text1Contact{
+  margin-top: 2rem;
+}
+.contactFotoTextBrown{
+  margin-top: 2rem;
 }
