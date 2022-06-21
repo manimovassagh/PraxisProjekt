@@ -374,12 +374,24 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 }
 
 /* Set The Map  */
-/* Set the size of the div element that contains the map */
-#map {
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */
+.mapFoto{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 110px;
+}
+.map{
+  margin-top: 175px;
 }
 
 /* End Of Map Set */
+.flexReverse{
+  flex-direction: row-reverse;
+}
+.mapThird{
+  margin-top: 4px;
+}
+.etagePlan{
+  margin-top: 4px;
+  margin-right: 2rem;
+}
