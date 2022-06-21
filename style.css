@@ -269,27 +269,26 @@ a:hover {
   display: flex;
 }
 
-.firstLineImageGroup{
-    size:30px ;
-    justify-content: space-between;
-    margin-right: 110px;
-    margin-left: 117px;
-padding-top: 100px;
+.firstLineImageGroup {
+  size: 30px;
+  justify-content: space-between;
+  margin-right: 110px;
+  margin-left: 117px;
+  padding-top: 100px;
 }
 
-.img{
-  
-    object-fit: contain;
-    height: 626px;
+.img {
+  object-fit: contain;
+  height: 626px;
 }
-.img2{
-    padding-top: 130px;
+.img2 {
+  padding-top: 130px;
 }
-.image1Text{
-    position: relative;
-    top: -120px; 
-    left: 99px;
-    font-family: bebasneue;
-    font-size: 67px;
-    color: azure;
+.image1Text {
+  position: relative;
+  top: -120px;
+  left: 99px;
+  font-family: bebasneue;
+  font-size: 67px;
+  color: azure;
 }
