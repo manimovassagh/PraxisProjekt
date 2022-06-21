@@ -292,35 +292,45 @@ a:hover {
   font-size: 67px;
   color: rgb(255, 255, 255);
 }
-.imageTextTitle{
-font-family: bebasneue;
-font-size: 67px;
+.imageTextTitle {
+  font-family: bebasneue;
+  font-size: 67px;
   color: rgb(255, 255, 255);
 }
-.imageTextDescription{
+.imageTextDescription {
   font-family: dexMedium;
   font-size: 40px;
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
-.imageContainer2{
+.imageContainer2 {
   margin-left: 110px;
 }
-.secondLineImage{
+.secondLineImage {
   padding-top: 0px;
 }
 .img2 {
   padding-top: -26px;
 }
-.secondLineImages{
+.secondLineImages {
   margin-left: 0px;
 }
-.img3{
+.img3 {
   margin-right: 119px;
 }
-.img4{
+.img4 {
   padding-top: 130px;
+  z-index:  2;
 }
 
-.contactFoto{
-  position: relative;
+.contactFotoContainer {
+ position: relative;
+}
+body > div.containerForMiddleImages > div:nth-child(4) > div > img{
+  z-index: 2;
+}
+.contactFoto {
+ max-width: 1790px;
+ position: absolute;
+ top: -300px;
+ z-index:-1;
 }
