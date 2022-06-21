@@ -395,3 +395,35 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   margin-top: 4px;
   margin-right: 2rem;
 }
+.flexReverseContainer{
+  max-width: 1920px;
+}
+.AnimePartContainer{
+  margin-top: 200px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: end;
+}
+/* .animeImage{
+  display: flex;
+  justify-content: end;
+  max-width: 1920px;
+ 
+} */
+.layers .layer {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background: transparent;
+  transition: all ease 1s;
+  position: relative;
+}
+.layers {
+    background: transparent;
+    display: inline-block;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
