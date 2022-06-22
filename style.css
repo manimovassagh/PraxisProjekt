@@ -439,7 +439,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 }
 .animeImage{
   display: block;
-  max-width: 20%;
+  max-width: 956px;
   position: absolute;
 
 }
@@ -447,7 +447,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   display: flex;
   justify-content: end;
   max-width: 1920px;
-  margin-right: 120px;
+  margin-right: 220px;
   transform: translateY(42px);
   
 }
