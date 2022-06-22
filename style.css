@@ -430,3 +430,40 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
     opacity: 1;
 }
 
+.AnimePartContainer{
+  max-width: 1920px;
+  position: relative;
+  display: flex;
+  justify-items: revert;
+  
+}
+.animeImage{
+  display: block;
+  max-width: 20%;
+  position: absolute;
+
+}
+.wrapper{
+  display: flex;
+  justify-content: end;
+  max-width: 1920px;
+  margin-right: 120px;
+  transform: translateY(42px);
+  
+}
+.animeImage1{
+  z-index: 4;
+  top: -170px;
+}
+.animeImage2{
+  top: -122px;
+  z-index: 3;
+}
+.animeImage3{
+  top: -70px;
+  z-index: 2;
+}
+.animeImage4{
+  top: -20px;
+  z-index: 1;
+}
