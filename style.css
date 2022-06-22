@@ -448,7 +448,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   justify-content: end;
   max-width: 1920px;
   margin-right: 220px;
-  transform: translateY(42px);
+  transform: translateY(162px);
   
 }
 .animeImage1{
@@ -456,14 +456,58 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   top: -170px;
 }
 .animeImage2{
-  top: -122px;
+  top: -50px;
   z-index: 3;
 }
 .animeImage3{
-  top: -70px;
+  top: 60px;
   z-index: 2;
 }
 .animeImage4{
-  top: -20px;
+  top: 180px;
   z-index: 1;
+}
+.footerContainer{
+  position: relative;
+  max-width: 1920px;
+  
+}
+.footerImage{
+
+  position: absolute;
+  top: 800px;
+  z-index: -8;
+}
+.footerTextTitle{
+  font-family: bebasneue;
+  font-size: 67px;
+  color: #7c6e66;
+}
+
+.footerText{
+  font-family: dexRegular;
+  font-size: 40px;
+  color: white;
+}
+.footerContainer{
+  position: relative;
+}
+.footerTextTitle {
+  position: absolute;
+  top: 920px;
+  left: 119px;
+}
+.footerText {
+  position: absolute;
+  top: 1300px;
+  left: 119px;
+  color:white;
+}
+.footerTextFirstBlock{
+  top: 1020px;
+  line-height: 47px;
+}
+.footerTextSecondBlock{
+  top: 1350px;
+  line-height: 47px;
 }
