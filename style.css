@@ -513,7 +513,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 }
 
 .anime{
-  transform: translateY(-100px);
+  transform: translateY(-40px);
   transition: transform 500ms ease-in-out 25ms;
 }
 .animeReset{
