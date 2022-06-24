@@ -522,3 +522,5 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   transform: translateY(0px);
   transition: transform 500ms ease-in-out 25ms;
 }
+
+/* End Define Animatiob for Group Photos */
