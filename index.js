@@ -18,9 +18,9 @@ function addEventToObject(animeImageNumber) {
 }
 
 addEventToObject(animeImage1);
-addEventToObject(animeImage2)
-addEventToObject(animeImage3)
-addEventToObject(animeImage4)
+addEventToObject(animeImage2);
+addEventToObject(animeImage3);
+addEventToObject(animeImage4);
 
 
 
