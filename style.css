@@ -512,6 +512,8 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   line-height: 47px;
 }
 
+
+/* Define Animatiob for Group Photos */
 .anime{
   transform: translateY(-40px);
   transition: transform 500ms ease-in-out 25ms;
