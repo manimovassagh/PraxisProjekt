@@ -546,7 +546,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
   height: 624px;
   border-radius: 25px;
 }  
