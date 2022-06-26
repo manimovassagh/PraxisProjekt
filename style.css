@@ -530,6 +530,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 
 .flip-card-back {
     transform: rotateY(180deg);
+   
 }
 
 .flip-card-front, .flip-card-back {
@@ -620,4 +621,24 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   font-size: 40px;
   color: #7c6e66;
   line-height: 1.1;
+  padding-top: 20px;
+
+}
+.flip-card-back{
+  position: relative;
+}
+.card-back-text{
+  position: absolute;
+  top: -520px;
+  left: 60px;
+}
+.button-3{
+  margin-top: 40px;
+  transform: scale(1.5);
+  margin-left: 37px;
+}
+
+body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer1.flip-card > div > div.flip-card-front > div{
+  max-height: 100px;
+  max-width: 600px;
 }
